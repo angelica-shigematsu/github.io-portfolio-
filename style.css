@@ -1,0 +1,61 @@
+:root{
+    --color: #ffffff;
+    --subTitle: gold;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: brown;
+}
+.boxSection{
+    display: flex;
+    flex-direction: row;
+}
+.boxContact{
+    flex-direction: inline;
+    margin: 2vh;
+}
+.item{
+    margin: 2vh 0 0 5vw;
+    width: 20vw;
+    border: 1px solid var(--color);
+    border-radius: 5%;
+    padding: 2%;
+    line-height: 4vh;
+}
+.description{
+    font-size: 1.3em;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color);
+}
+h2{
+    color: var(--subTitle);
+}
+.imgProfile{
+    border-radius: 50%;
+    margin: 3%;
+    width: 15%;
+}
+li{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.name{
+    font-size: 2em;
+    color: var(--subTitle);
+    font-weight: bold;
+}
+section{
+    margin-left: 2vw;
+}
+ul li, ul p, p{
+    color: var(--color);
+    font-size: 1.1em;
+    text-align: justify;
+}
