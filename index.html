@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="screenMobile.css">
 </head>
 <body>
     <header>
@@ -31,30 +32,43 @@
         </div>
     </header>
     <section class="boxSection">
-        <div class="item">
-        <h2>Sobre</h2>
-        <p>Objetivo ser Desenvolvedora Back-End Júnior,
-        estudando JavaScript, NodeJS e Typescript. Conhecimento 
-        em linguagem Java e Oracle SQL.
-        </p>
+        <div class="item" id="about">
+            <h2>Sobre</h2>
+            <ul>
+                <li>Objetivo ser Desenvolvedora Back-End Júnior</li>
+                <ul>
+                    <li class="subTitle">Estudando: </li>  
+                    <li>JavaScript</li>
+                    <li>NodeJS</li> 
+                    <li>Typescript</li>
+                    <li>MongoDB</li>
+                    <li class="subTitle">Conhecimento: </li> 
+                    <li>Java e Oracle SQL</li> 
+                </ul>
+            </ul>
         </div>
-        <div class="item">
-        <h2>Formação</h2>
-        <ul>
-            <li>Análise e Desenvolvimento de Sistemas</li>
-            <p>Fatec Sorocaba</p>
-            <p>07/2020 - 07/2023</p>
-        </ul>
-    </div>
-    <div class="item">
+        <div class="item" id="college">
+            <h2>Formação</h2>
+            <ul>
+                <li>Análise e Desenvolvimento de Sistemas</li>
+                <ul>
+                    <li>Fatec Sorocaba</li>
+                    <li>07/2020 - 07/2023</li>
+                </ul>    
+            </ul>
+        </div>
+    <div class="item" id="course">
         <h2>Cursos</h2>
         <ul>
-            <li>Bootcamp ElasNaTech(): Desevolvimento Web</li>
-            <p>JA Brasil e CCR</p>
-            <p>04/2022 - 08/2022</p>
-            <li>Introdução a Git e Github</li>
-            <p>DIO</p>
-            <p>2021</p>
+            <li class="subtitle">Bootcamp ElasNaTech(): Desevolvimento Web</li>
+            <ul>
+                <li>JA Brasil e CCR</li>
+                <li>04/2022 - 08/2022</li>
+            </ul>
+            <li class="subTitle">Introdução a Git e Github</li>
+                <li>DIO</li>
+                <li>2021</li>
+            </ul>
         </ul>
     </div> 
     </section>
