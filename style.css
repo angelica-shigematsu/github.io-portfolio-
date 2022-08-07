@@ -1,13 +1,17 @@
 :root{
-    --color: #ffffff;
-    --subTitle: gold;
+    --color: #E6E6FA;
+    --subTitle: #2b2e31;
 }
 *{
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 body{
-    background-color: brown;
+    background-color: #E6E6FA	;
+    min-width: 600px;
 }
 .boxSection{
     display: flex;
@@ -20,7 +24,6 @@ body{
 .item{
     margin: 2vh 0 0 5vw;
     width: 20vw;
-    border: 1px solid var(--color);
     border-radius: 5%;
     padding: 2%;
     line-height: 4vh;
@@ -33,29 +36,32 @@ header{
     flex-direction: column;
     align-items: center;
     color: var(--color);
+    background-color: #5d8aa8;
 }
 h2{
     color: var(--subTitle);
+    margin-bottom: 5%;
 }
 .imgProfile{
     border-radius: 50%;
     margin: 3%;
-    width: 15%;
-}
-li{
-    font-weight: bold;
-    font-size: 1.2em;
+    width: 10%;
 }
 .name{
-    font-size: 2em;
+    font-size: 1.4em;
     color: var(--subTitle);
     font-weight: bold;
 }
 section{
     margin-left: 2vw;
 }
-ul li, ul p, p{
-    color: var(--color);
+.subTitle{
+    font-weight: bold;
+    list-style-type: none;
+    margin-top: 3%;
+}
+ul li{
+    color: var(--subTitle);
     font-size: 1.1em;
     text-align: justify;
 }
