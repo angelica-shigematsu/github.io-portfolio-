@@ -31,6 +31,9 @@ body{
     margin: 2vh;
 
 }
+div a {
+    color: var(--subTitle);
+}
 .item{
     margin: 2vh 0 0 5vw;
     width: 20vw;
@@ -56,6 +59,9 @@ h2{
     margin: 3%;
     width: 10%;
 }
+.imgProject{
+    width: 300px;
+}
 .menu a{
     display: block;
     float: right;
@@ -74,6 +80,7 @@ section{
     font-weight: bold;
     list-style-type: none;
     margin-top: 3%;
+    color:var(--subTitle);
 }
 ul li{
     color: var(--subTitle);
