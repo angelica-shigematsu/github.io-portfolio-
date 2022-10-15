@@ -1,0 +1,15 @@
+.card-body {
+  display: flex;
+  margin: 5%;
+}
+.card-item {
+  align-items: center;
+  margin: 5%;
+  padding: 2%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.6em;
+
+}

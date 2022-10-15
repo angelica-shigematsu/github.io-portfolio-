@@ -1,88 +1,110 @@
 :root{
-    --color: #E6E6FA;
-    --subTitle: #2b2e31;
+  --color: #E6E6FA;
+  --subTitle: #2b2e31;
 }
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 1.02em;
-}
-a{
-    text-decoration: none;
-    color: var(--color);
-}
-body{
-    background-color: #E6E6FA	;
-    min-width: 600px;
-}
-.headerCenter{
-    display: flex;
-    float: center;
-}
-.boxSection{
-    display: flex;
-    flex-direction: row;
-}
-.boxSection ul li{
-    color: var(--subTitle);
-}
-.boxContact{
-    flex-direction: inline;
-    margin: 2vh;
 
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 1.02em;
 }
+
+a{
+  text-decoration: none;
+  color: var(--color);
+}
+
+body{
+  background-color: #E6E6FA	;
+  min-width: 600px;
+}
+
+.boxSection{
+  display: flex;
+  flex-direction: row;
+}
+
+.boxSection ul li{
+  color: var(--subTitle);
+}
+
+.boxContact{
+  flex-direction: inline;
+  margin: 2vh;
+}
+
 div a {
-    color: var(--subTitle);
+  color: var(--subTitle);
 }
+
 .item{
-    margin: 2vh 0 0 5vw;
-    width: 20vw;
-    border-radius: 5%;
-    padding: 2%;
-    line-height: 4vh;
+  margin: 2vh 0 0 5vw;
+  width: 20vw;
+  border-radius: 5%;
+  padding: 2%;
+  line-height: 4vh;
 }
+
 .description{
-    font-size: 1.3em;
-    margin-left: 2vw;
+  font-size: 1.3em;
+  margin-left: 2vw;
 }
+
 header{
-    align-items: center;
-    color: var(--color);
-    background-color: #5d8aa8;
+  align-items: center;
+  color: var(--color);
+  background-color: #5d8aa8;
 }
+
+.headerTitle {
+  flex-direction: row;
+}
+
+.headerApresentation {
+  display: flex;
+  align-items: center;
+}
+
 h2{
-    color: var(--subTitle);
-    margin-bottom: 5%;
+  color: var(--subTitle);
+  margin-bottom: 5%;
 }
+
 .imgProfile{
-    border-radius: 50%;
-    margin: 3%;
-    width: 10%;
+  border-radius: 50%;
+  margin: 3%;
+  width: 10%;
 }
+
 .imgProject{
-    width: 300px;
+  width: 300px;
 }
+
 .menu a{
-    display: block;
-    float: right;
-    margin: 2% 2% 2% 2%;
+  display: flex;
+  float: right;
+  margin: 2% 2% 2% 2%;
 }
+
 .name{
-    color: var(--subTitle);
-    font-weight: bold;
-    margin-left: 2vw;
-    font-size: 1.2em;
+  color: var(--subTitle);
+  font-weight: bold;
+  margin-left: 2vw;
+  font-size: 1.2em;
 }
+
 section{
-    margin-left: 2vw;
+  margin-left: 2vw;
 }
+
 .subTitle{
-    font-weight: bold;
-    list-style-type: none;
-    margin-top: 3%;
-    color:var(--subTitle);
+  font-weight: bold;
+  list-style-type: none;
+  margin-top: 3%;
+  color:var(--subTitle);
 }
+
 ul li{
-    color: var(--subTitle);
-    text-align: justify;
+  color: var(--subTitle);
+  text-align: justify;
 }
