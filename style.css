@@ -1,34 +1,34 @@
-:root{
+:root {
   --color: #E6E6FA;
   --subTitle: #2b2e31;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-size: 1.02em;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--color);
 }
 
-body{
+body {
   background-color: #E6E6FA	;
   min-width: 600px;
 }
 
-.boxSection{
+.boxSection {
   display: flex;
   flex-direction: row;
 }
 
-.boxSection ul li{
+.boxSection ul li {
   color: var(--subTitle);
 }
 
-.boxContact{
+.boxContact {
   flex-direction: inline;
   margin: 2vh;
 }
@@ -37,7 +37,7 @@ div a {
   color: var(--subTitle);
 }
 
-.item{
+.item {
   margin: 2vh 0 0 5vw;
   width: 20vw;
   border-radius: 5%;
@@ -45,12 +45,16 @@ div a {
   line-height: 4vh;
 }
 
-.description{
+.description {
   font-size: 1.3em;
   margin-left: 2vw;
 }
 
-header{
+.details {
+  list-style: none;
+}
+
+header {
   align-items: center;
   color: var(--color);
   background-color: #5d8aa8;
@@ -65,46 +69,47 @@ header{
   align-items: center;
 }
 
-h2{
+h2 {
   color: var(--subTitle);
   margin-bottom: 5%;
 }
 
-.imgProfile{
+.imgProfile {
   border-radius: 50%;
   margin: 3%;
   width: 10%;
 }
 
-.imgProject{
+.imgProject {
   width: 300px;
 }
 
-.menu a{
+.menu a {
   display: flex;
   float: right;
   margin: 2% 2% 2% 2%;
 }
 
-.name{
+.name {
   color: var(--subTitle);
   font-weight: bold;
   margin-left: 2vw;
   font-size: 1.2em;
 }
 
-section{
+section {
   margin-left: 2vw;
 }
 
-.subTitle{
+.subTitle {
   font-weight: bold;
   list-style-type: none;
   margin-top: 3%;
   color:var(--subTitle);
 }
 
-ul li{
+ul li {
   color: var(--subTitle);
   text-align: justify;
+  margin-bottom: 2vh;
 }
