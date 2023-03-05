@@ -23,9 +23,14 @@ body {
   display: flex;
   flex-direction: row;
 }
+.boxSection .item {
+  margin: 1%;
+  width: 30%;
+}
 
 .boxSection ul li {
   color: var(--subTitle);
+  line-height: 2vh;
 }
 
 .boxContact {
@@ -38,8 +43,8 @@ div a {
 }
 
 .item {
-  margin: 2vh 0 0 5vw;
-  width: 20vw;
+  margin: 2vh;
+  width: 40vw;
   border-radius: 5%;
   padding: 2%;
   line-height: 4vh;
@@ -84,6 +89,10 @@ h2 {
   width: 300px;
 }
 
+.imgProject2 {
+  width: 30%;
+}
+
 .menu a {
   display: flex;
   float: right;
@@ -102,8 +111,6 @@ section {
 }
 
 .subTitle {
-  font-weight: bold;
-  list-style-type: none;
   margin-top: 3%;
   color:var(--subTitle);
 }
