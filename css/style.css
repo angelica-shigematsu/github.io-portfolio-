@@ -22,8 +22,7 @@ a {
 }
 
 body {
-  background-color: var(--color)	;
-  min-width: 600px;
+  background-color: var(--color);
   display: flex;
   flex-direction: column;
 }
