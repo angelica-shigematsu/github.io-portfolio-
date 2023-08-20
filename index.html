@@ -2,92 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfil</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="screenMobile.css">
+  <title>Portfólio Angélica Shigematsu</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/tecnology.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <div class="menu">
       <a href="index.html" class="home">Home</a>
       <a href="portfolio.html" class="portfolio">Portfólio</a>
-      <a href="contact.html">Contato</a>
-      <a href="tecnologies.html">Tecnologia</a>
-    </div>
-    <div class="headerApresentation">
-      <img src="https://avatars.githubusercontent.com/u/78798754?s=96&v=4" 
-        alt="Foto de avatar" 
-        title="Angelica"
-        class="imgProfile"/>
-      <div class="titleHeader">
-        <p class="name">Angélica Shigematsu</p>
-        <p class="description">Back-End Developer</p>
-      </div>
     </div>
   </header>
-  <section class="boxSection">
-      <div class="item" id="about">
-        <h2>Sobre mim</h2>
-        <p>Oi, bem-vindo(a) a meu portfólio!</p>
-        <br>
-        <p>Sou Angélica, estudo há 6 anos programação focada na área back-end, 
-          não deixando de lado o front-end.
-        </p>
-          <br>
-        <p>
-          Atualmente tenho conhecimento na linguagem JavaScript e TypeScript,
-          com foco em Node.js e seus frameworks.   
-        </p>
-      </div>
-      <div class="item">
-          <h2>Formação</h2>
-          <ul>
-              <li class="subTitle">Análise e Desenvolvimento de Sistemas</li>
-              <ul>
-                  <li class="details">Fatec Sorocaba</li>
-                  <li class="details">07/2020 - 06/2023</li>
-              </ul>    
-          </ul>
-          <ul>
-            <li class="subTitle">Técnico de Desenvolvimento de Sistemas</li>
-            <ul>
-                <li class="details">Etec Fernando Prestes</li>
-                <li class="details">07/2019 - 12/2020</li>
-            </ul>    
-          </ul>
-      </div>
-      <div class="item">
-        <h2>Cursos</h2>
-        <div class="content">
-          <ul>
-            <li class="subTitle">Trabalhando em equipes Ágeis</li>
-              <ul>
-              <li class="details"> DIO - 01/2023
-              </ul>
-            </li>
-            <li class="subTitle">Metodológias Ágeis - Scrum na Prática</li>
-              <ul>
-              <li class="details"> Udemy - 11/2022
-              </ul>
-            </li>
-            <li class="subTitle">Bootcamp ElasNaTech(): Desevolvimento Web</li>
-              <ul>
-                <li class="details">JA Brasil e CCR</li>
-                <li class="details">04/2022 - 08/2022</li>
-                <li class="details">HTML5, CSS3, BootStrap, Java</li>
-              </ul>
-            </li>
-            <li class="subTitle">Introdução a Git e Github</li>
-              <ul>
-                <li class="details">DIO</li>
-                <li class="details">2021</li>
-              </ul>
-            </li>
-          </ul>
+
+  <section>
+    <div class="description">
+      <p class="name">Angélica Shigematsu</p>
+      <p class="profession">Back-end Developer</p>
+      <div class="contact">
+        <div class="item">
+          <a href="https://br.linkedin.com/in/ang%C3%A9lica-shigematsu-122623182">
+            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" 
+            alt="Imagem da logo do GitHub"
+            title="Redireciona ao meu perfil do Linkedin"
+            target="_blank">
+            </a>
         </div>
-      </div> 
+        <div class="item">
+          <a href="http://github.com/angelica-shigematsu">
+            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" 
+            alt="Logo do Github"
+            title="Redireciona ao meu perfil do GitHub"
+            target="_blank">
+            </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-about">
+      <div class="about">
+        <p>Recentemente me formei em Análise e Desenvolvimento de Sistemas.
+          Meu primeiro contato com programação foi no ensino técnico na Etec.
+          Tenho estudado metodologias ágeis e sobre boas práticas de programação.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="section-project">
+    <div class="card-body">
+      <div class="card-item">
+        <img src="./images/nodejs.svg" alt="imagem do logo do node">
+        <p>NodeJs</p>
+      </div>
+      <div class="card-item">
+        <img src="./images/typescript.svg" alt="imagem do logo typescript">
+        <p>TypeScript</p>
+      </div>
+      <div class="card-item">
+        <img src="./images/javascript.svg" alt="imagem do logo do javaScript">
+        <p>JavaScript</p>
+      </div>
+      <div class="card-item">
+        <img src="./images/java.svg" alt="imagem do logo do java">
+        <p>Java</p>
+      </div>
+      <div class="card-item">
+        <img src="./images/mongodb.svg" alt="imagem do mongo">
+        <p>Mongo</p>
+      </div>
+      <div class="card-item">
+        <img src="./images/mysql.svg" alt="imagem do mongo">
+        <p>MySQL</p>
+      </div>
+      <div class="card-item">
+        <img src="./images/vscode.svg" alt="imagem dologo da ide vscode">  
+        <p>IDE Visual Studio Code</p>
+      </div>
+      <div class="card-item">
+        <img src="./images/eclipse.png" alt="imagem do logo da ferramenta eclipse">  
+        <p>IDE Eclipse</p>
+      </div>
+    </div>
   </section>
 </body>
 </html>

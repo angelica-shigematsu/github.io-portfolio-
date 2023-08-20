@@ -1,0 +1,38 @@
+.project {
+  padding:  0.5em;
+  border-radius: 4px;
+  background-color: #fff;
+  margin: 1%;
+  width: 20%;
+}
+
+.link-code {
+  display: flex;
+  align-self: flex-end;
+  font-size: 0.9em;
+}
+
+p {
+  margin-bottom: 2%;
+}
+
+.project:hover {
+  width: 30%;
+  height: 20%;
+}
+
+.img-project {
+  margin: 2%;
+  width: 30%;
+  height: 40%
+}
+
+.section-project {
+  display: flex;
+  background-color: var(--sedondaryColor);
+  justify-content: center;
+}
+
+.text {
+  font-size: 0.9em;
+}
