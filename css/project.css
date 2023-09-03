@@ -4,6 +4,7 @@
   background-color: #fff;
   margin: 1%;
   width: 20%;
+  height: 40%;
 }
 
 .link-code {
@@ -33,6 +34,20 @@ p {
   justify-content: center;
 }
 
+.tecnology {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em;
+}
+
 .text {
-  font-size: 0.9em;
+  border-radius: 50px;
+  border: 2px solid var(--sedondaryColor);
+  font-size: 0.7em;
+  padding: 2%;
+  margin-right: 2%; 
+}
+
+.trouble {
+  font-size: 0.8em;
 }
