@@ -1,3 +1,10 @@
+.container-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4%;
+}
+
 .project {
   padding:  0.5em;
   border-radius: 4px;
@@ -10,7 +17,10 @@
 .link-code {
   display: flex;
   align-self: flex-end;
+  background-color: var(--secondaryColor);
   font-size: 0.9em;
+  margin-bottom: 2vh;
+  padding: 2%;
 }
 
 p {
@@ -42,7 +52,7 @@ p {
 
 .text {
   border-radius: 50px;
-  border: 2px solid var(--sedondaryColor);
+  border: 2px solid var(--secondaryColor);
   font-size: 0.7em;
   padding: 2%;
   margin-right: 2%; 

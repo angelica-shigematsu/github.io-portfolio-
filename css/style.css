@@ -1,7 +1,7 @@
 :root {
   --color: #E6E6FA;
   --subTitle: #2b2e31;
-  --sedondaryColor: #5d8aa8;
+  --secondaryColor: #5d8aa8;
 }
 
 * {
@@ -43,7 +43,7 @@ h3 {
 }
 
 header {
-  background-color: var(--sedondaryColor);
+  background-color: var(--secondaryColor);
 }
 
 .profession {
