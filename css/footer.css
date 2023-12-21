@@ -2,5 +2,10 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 2%;
+}
+
+.pfooter {
+  margin-top: 5%;
+  font-size: 0.8em;
 }

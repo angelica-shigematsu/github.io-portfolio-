@@ -2,8 +2,16 @@
   display: flex;
   margin: 1%;
 }
+
+.card-body1 {
+  position: relative;
+  float: right;
+  flex-direction: column;
+  margin-top: -15%;
+}
 .card-item {
   align-items: center;
-  margin: 2%;
+  text-align: center;
+  margin: 0 6% 5% 0%;
   padding: 1%;
 }
